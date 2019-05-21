@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>pt.cgd.soap</groupId>
 	<artifactId>soap-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>SOAP Service</name>
 	<description>SOAP service for CGD PoC</description>
 
