@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: apigee-proxy
+---
+server:
+  port: 9001
+  ssl:
+    key-store: classpath:nt-gateway.jks
+    key-store-password: nt-gateway
+    key-alias: nt-gateway
+    key-store-type: JKS
+    key-store-provider: SUN
+    trust-store: classpath:nt-gateway.jks
+    trust-store-password: nt-gateway
+    trust-store-type: JKS
+---
+endpoint:
+  backend-service: https://localhost:8443
